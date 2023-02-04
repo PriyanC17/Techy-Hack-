@@ -1,0 +1,204 @@
+body {
+    background-color: #808000;
+    padding: 0;
+    margin-top: none;
+    margin-bottom: none;
+  }
+  
+  .header {
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 20px;
+  }
+  
+  p {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-size: 20px;
+    display: inline;
+    font-family: Copperplate, Papyrus, fantasy;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  
+  nav {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    line-height: 0%;
+    display:inline-block;
+    align-items: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  
+  li {
+    display: inline;
+    padding: 25px;
+    border-color: none;
+  }
+  
+  li a {
+    color: black;
+    text-align: left;
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #808000;
+    border-style: double;
+    border-color: white;
+    color: white;
+  }
+  
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: none;
+    margin-bottom: none;
+    background: #ccccff;
+    display: block;
+  }
+  
+  li.logo {
+    border-color: none;
+    background-color: none;
+    padding-right: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+  }
+  
+  .footer {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .video {
+    text-align: center;
+  }
+  
+  .images {
+    display: inline;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .imgs{
+    display: inline;
+  }
+  
+  
+  
+  
+  /* Karina's Code */
+  
+  
+  .title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: grey;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  } 
+  .col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+  } 
+  .col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+  } 
+  .col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+  } 
+  .btn{
+    display: inline-block;
+    background: green;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+  } 
+  .btn:hover{
+    background: #563434;
+  }
+  
+  .header .row{
+    margin-top: 70px;
+  } 
+  .categories{
+    margin: 70px 0;
+  } 
+  .col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+  } 
+  .col-3 img{
+    width: 100%;
+  }
+  .small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+  }
+  .col-4 img{
+    width: 100%;
+  }
+  
+  .fa.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b;
+  }
+  
+  .rating .fa{
+    color: #ff523b;
+  }
+  
+  nav ul{
+    display: inline-block;
+    list-style-type: none;
+  } 
+  nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+  } 
